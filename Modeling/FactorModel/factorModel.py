@@ -7,7 +7,7 @@ import xlsxwriter
 fm = ffm.ffm('20150831','20170831','20170927')
 fm.modeling(['S102306','S102306'], 10)
 
-# print(fm.rSeries)
+print(fm.rSeries)
 # workbook = xlsxwriter.Workbook('result.xlsx')
 # worksheet = workbook.add_worksheet('port')
 # worksheet.write_row(0,0, list(fm.port[0].columns))
